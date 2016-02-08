@@ -5,7 +5,7 @@
 # :trident: _aquaman_
 
 
-> Theme for [Fishshell](fishshell.com) based on the [flash](https://github.com/wa/flash) theme and [railscast](https://github.com/ericfreese/atom-railscast-theme) colors.
+> Theme for [Fishshell](fishshell.com) based on the [flash](https://github.com/wa/flash) theme and [railscast][railscast] colors.
 
 ## Features
 
@@ -21,9 +21,8 @@ _From left to right:_
 + `*` next to the branch name denotes the current repository is dirty.
 + Display current branch.
 + Display current time.
-+ Time separator `:` changes color to red if last `$status`  was `!=` 0.
 + Display exit status for non zero codes after `⚠` character.
-+ _Flash_ inspired colors.
++ _[railscast][railscast]_ inspired colors.
 + Display the number of seconds taken by the last command executed.
 
 <p align="center">
@@ -40,3 +39,4 @@ _From left to right:_
 [MIT](http://opensource.org/licenses/MIT) © [Jake Russo][Author] et [al](https://github.com/bucaran/batman/graphs/contributors)
 [Author]: http://madcapjake.github.io
 [Fisherman]: http://fisherman.sh/
+[railscast]: https://github.com/ericfreese/atom-railscast-theme
