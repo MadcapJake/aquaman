@@ -22,7 +22,7 @@ _From left to right:_
 + Display current branch.
 + Display current time.
 + Time separator `:` changes color to red if last `$status`  was `!=` 0.
-+ Display exit status for non zero codes after `≡` character.
++ Display exit status for non zero codes after `⚠` character.
 + _Flash_ inspired colors.
 + Display the number of seconds taken by the last command executed.
 
