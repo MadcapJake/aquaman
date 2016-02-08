@@ -5,11 +5,12 @@ set -g CMD_DURATION 0
 # off red: DA4939
 # lilac: B6B3EB
 # blue: 6D9CBE
+# dark-blue: 5F87D7
 
 function aqua_fst; set_color -o E8BF6A; end
 function aqua_snd; set_color -o A5C261; end
 function aqua_trd; set_color -o DA4939; end
-function aqua_fth; set_color -o 6D9CBE; end
+function aqua_fth; set_color -o 5F87D7; end
 function aqua_dim; set_color -o 666; end
 function aqua_off; set_color normal; end
 function bc; command bc -l $argv; end
