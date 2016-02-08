@@ -23,7 +23,7 @@ function fish_prompt
 
   printf (aqua_snd)"⟪ "(begin
     if test "$PWD" = "/"
-      test $code -eq 0; and echo (aqua_fst)"/"(aqua_off); or echo (aqua_dim)"/"(aqua_off)
+      test $code -eq 0; and echo (aqua_fst)"/"(aqua_off); or echo (aqua_trd)"/"(aqua_off)
     else
       echo ""
     end
