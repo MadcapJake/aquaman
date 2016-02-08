@@ -1,10 +1,17 @@
 set -g CMD_DURATION 0
 
-function flash_fst; set_color -o fa0; end
-function flash_snd; set_color -o C00; end
-function flash_trd; set_color -o 666; end
-function flash_dim; set_color -o 333; end
-function flash_off; set_color normal; end
+# lime green: A5C261
+# light gold: E8BF6A
+# off red: DA4939
+# lilac: B6B3EB
+# blue: 6D9CBE
+
+function aqua_fst; set_color -o E8BF6A; end
+function aqua_snd; set_color -o A5C261; end
+function aqua_trd; set_color -o DA4939; end
+function aqua_fth; set_color -o 6D9CBE; end
+function aqua_dim; set_color -o 666; end
+function aqua_off; set_color normal; end
 function bc; command bc -l $argv; end
 
 function fish_prompt
@@ -13,24 +20,24 @@ function fish_prompt
   set -l prompt (prompt_pwd)
   set -l base (basename "$prompt")
 
-  printf (flash_snd)"( "(begin
+  printf (aqua_snd)"⟪ "(begin
     if test "$PWD" = "/"
-      test $code -eq 0; and echo (flash_fst)"/"(flash_off); or echo (flash_dim)"/"(flash_off)
+      test $code -eq 0; and echo (aqua_fst)"/"(aqua_off); or echo (aqua_dim)"/"(aqua_off)
     else
       echo ""
     end
   end)(echo "$prompt" \
   | sed "s|~|"(begin
-      test $code -eq 0; and echo (flash_fst); or echo (flash_dim)
-    end)"⌁"(flash_off)"|g" \
-  | sed "s|/|"(flash_snd)" ) "(flash_off)"|g" \
-  | sed "s|"$base"|"(flash_fst)$base(flash_off)" |g")(flash_snd)(begin
+      test $code -eq 0; and echo (aqua_fst); or echo (aqua_trd)
+    end)"🔱 "(aqua_off)"|g" \
+  | sed "s|/|"(aqua_snd)" ⟫ "(aqua_fth)"|g" \
+  | sed "s|"$base"|"(aqua_fst)$base(aqua_off)" |g")(aqua_snd)(begin
     test "$PWD" = "$HOME"; and echo " "; echo ""
     end)(begin
       if test "$PWD" = "/"
         echo ""
       else
-        echo ") "
+        echo "⟫ "
       end
-    end)(flash_off)
+    end)(aqua_off)
 end

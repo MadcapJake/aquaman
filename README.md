@@ -1,10 +1,11 @@
-[![](https://img.shields.io/badge/Themes-Wahoo-00b0ff.svg?style=flat-square)][Wahoo]
+[![](https://img.shields.io/badge/Themes-Fisherman-00bafe.svg?style=flat-square)][Fisherman]
 ![](https://img.shields.io/badge/License-MIT-707070.svg?style=flat-square)
 
 
-# :zap: _Flash_
+# :trident: _aquaman_
 
-> Theme for [Fishshell](fishshell.com) inspired by the Flash.
+
+> Theme for [Fishshell](fishshell.com) based on the [flash](https://github.com/wa/flash) theme and [railscast](https://github.com/ericfreese/atom-railscast-theme) colors.
 
 ## Features
 
@@ -40,9 +41,9 @@ _From left to right:_
 
 # License
 
-> __Disclaimer:__ This work is not intended to infringe on any rights by and of the companies and/or individuals involved in the production of any series mentioned here. I don't own the Flash.
+> __Disclaimer:__ This work is not intended to infringe on any rights by and of the companies and/or individuals involved in the production of any series mentioned here. I don't own the Aquaman.
 
 
-[MIT](http://opensource.org/licenses/MIT) © [Jorge Bucaran][Author] et [al](https://github.com/bucaran/batman/graphs/contributors)
-[Author]: http://about.bucaran.me
-[Wahoo]: https://github.com/bucaran/wahoo
+[MIT](http://opensource.org/licenses/MIT) © [Jake Russo][Author] et [al](https://github.com/bucaran/batman/graphs/contributors)
+[Author]: http://madcapjake.github.io
+[Fisherman]: http://fisherman.sh/
