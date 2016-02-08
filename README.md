@@ -27,15 +27,8 @@ _From left to right:_
 + Display the number of seconds taken by the last command executed.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/8317250/7787589/431f2efa-024f-11e5-9715-df3e1833e174.png">
+<img src="https://raw.githubusercontent.com/MadcapJake/aquaman/master/example1.png">
 </p>
-
-## Screenshot
-
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/8317250/7787558/fb091794-024d-11e5-815b-cf3b6b2e5217.png">
-</p>
-
 
 
 
