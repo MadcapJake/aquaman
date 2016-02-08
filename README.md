@@ -11,13 +11,13 @@
 
 _From left to right:_
 
-+ `$HOME` directory abbreviated to `( ⌁ )`
-+ `/` root is diplayed as `( / )`
-+ `$HOME` and `/` characters change color to dim gray if last `$status`  was `!=` 0.
++ `$HOME` directory abbreviated to `⟪ 🔱 ⟫`
++ `/` root is diplayed as `⟪ / ⟫`
++ `$HOME` and `/` characters change color to red if last `$status`  was `!=` 0.
 + Path to current working directory is abbreviated.
-+ Path and prompt separator is displayed as `)`.
++ Path and prompt separator is displayed as `⟫`.
 
-+ `<` character next to `(branch)` denotes the repository has [_stashed_](https://git-scm.com/book/no-nb/v1/Git-Tools-Stashing) changes.
++ `⊰` character next to `(branch)` denotes the repository has [_stashed_](https://git-scm.com/book/no-nb/v1/Git-Tools-Stashing) changes.
 + `*` next to the branch name denotes the current repository is dirty.
 + Display current branch.
 + Display current time.

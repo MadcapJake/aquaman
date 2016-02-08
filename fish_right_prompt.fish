@@ -24,7 +24,7 @@ function fish_right_prompt
 
   if test -d .git
     if aqua_git_is_stashed
-      echo (aqua_dim)"<"(aqua_off)
+      echo (aqua_dim)"⊰"(aqua_off)
     end
     printf (begin
       aqua_git_is_touched
