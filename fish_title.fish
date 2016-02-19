@@ -5,7 +5,7 @@ function fish_title
         test -n "$HOSTNAME"; and echo " — $HOSTNAME"; or echo ""
       end) "⋲"
   case '*'
-    echo "⟜" (uname -n)" ‐ "(whoami)" ― "$argv[1](begin
+    echo "⟜"$argv[1](begin
         test -n "$HOSTNAME"; and echo " — $HOSTNAME"; or echo ""
       end) "⋲"
   end
